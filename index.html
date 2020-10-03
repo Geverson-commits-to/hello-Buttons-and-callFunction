@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title> calc </title>
+<script src="Calc.js"></script>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <form name="Calc" method="post" action="/submit">
+        <h1> Calculadora</h1>
+
+        <div class="Button">
+            <ul>
+
+            <li>
+            <div class="entradas">
+            <input id="Entrada" type="number" name="somar">
+            <input id="Entrada_2" type="number">
+            </div>
+            </li>
+
+            <li>
+            <div class="butoes">
+            <input type="button" value="Somar" onclick="soma()" id="somar">
+            <input type="button" value="Subtrair" onclick="Sub()" id="subtrair">
+            <input type="button" value="Dividir" onclick="Div()" id="dividir">
+            <input type="button" value="multiplicar" onclick="Mult()" id="multiplicar">
+            </div>
+            </li>
+
+            <li>
+            <dir class="saida">
+            <input type="number" id= "resultado" value="resultado" placeholder="Results">
+            </dir>
+            </li>
+
+            </ul>
+        </div>
+
+
+
+    </form>
+</body>
+</html>
